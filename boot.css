@@ -1,0 +1,186 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    min-height: 550px;
+    background-image: linear-gradient(130deg,hsl(13, 100%, 72%) 30%, hsl(353, 100%, 62%) 70%);
+    border-radius: 0 0 0 95px;}
+header div#bg{
+    width: 100%;
+    min-height: 550px;
+    background-image: url("blogr/images/bg-pattern-intro.svg");
+    background-position: -450px -1300px;
+    background-repeat: no-repeat;
+    background-size: 3000px;}
+header div#bg nav.navbar div.collapse ul.navbar-nav{margin-left:2%;}
+header div#bg nav.navbar h4.navbar-brand{font-size: 33px;}
+header div#bg nav.navbar div.collapse ul.navbar-nav li a.nav-link{
+    font-size: 17px;
+    font-weight: bold;}
+header div#bg nav.navbar div.collapse ul.navbar-nav li.spec{
+    padding-left: 100%;
+    padding-right: 6%}
+    header div#bg nav.navbar ul.navbar-nav li.spec button.spec12{
+        border: none;
+        background-color: transparent;
+        font-size: 17px;
+        font-weight: bold;
+        color: white;}
+header div#bg nav.navbar div.collapse ul.navbar-nav li button.spec2{
+    padding: 12px 30px 12px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 45px;
+    color: hsl(353, 100%, 62%);}
+    header div#bg nav.navbar div.offcanvas ul.navbar-nav li button.spec2{
+        border: none;
+        background-color: transparent;
+        color:white;}
+header div#bg nav{padding-top:5%;}
+header div#bg div.offcanvas div.offcanvas-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+header div#bg div.container div.row h4{
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    color: white;
+    font-weight: lighter;}
+    header div#bg div.container div.row p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    color: white;
+    font-weight: lighter;
+    padding-bottom: 70px;}
+    header div#bg div.container div.btn-group  a:nth-child(1){
+        padding: 12px 30px 12px 30px;
+        background-color: white;
+        border: none;
+        border-radius: 45px;
+        color: hsl(353, 100%, 62%);
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right:8px;
+    margin-bottom: 20%;}
+    header div#bg div.container div.btn-group a:nth-child(2){
+        padding: 12px 30px 12px 30px;
+        border: none;
+        border-radius: 45px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid white;
+    margin-bottom: 20%;}
+    
+   
+   
+        main section#st1 h2{
+            text-align: center;
+            font-size: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 10%;
+            color: hsl(207, 13%, 34%);
+            font-weight: lighter;}
+    main section#st1 div.card-body h4.card-title{
+            font-size: 28px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: hsl(207, 13%, 34%);
+            font-weight: lighter;}
+     main section#st1 div.card-body p.card-text{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: hsl(207, 13%, 34%);
+            font-weight: lighter;
+            padding-bottom: 35px;
+            line-height: 28px;}
+    main section#st1 div.card{border: none;
+    margin-left: 10%;}
+    main section#st2{ 
+        background-color: hsl(237, 17%, 21%);
+        border-radius: 0px 95px 0px 95px;
+        min-height: 400px;
+    margin-top: 10%;}
+        main section#st2 div#bgsub{
+            background-image: url("blogr/images/bg-pattern-circles.svg");
+            background-size: 1000px;
+            background-repeat: no-repeat;
+            height: 400px;
+            background-position:-230px -500px;}
+            main section#st2 div#bgsub img{transform: translate(0px, -80px);}
+            main section#st2 div.card-body h4.card-title{
+                font-size: 28px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                font-weight: lighter;}
+         main section#st2 div.card-body p.card-text{
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                font-weight: lighter;
+                padding-bottom: 35px;
+                line-height: 28px;}
+        main section#st2 div.card{border: none;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    background-color: transparent;}
+
+    main section#st3 div.card-body h4.card-title{
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: hsl(207, 13%, 34%);
+        font-weight: lighter;}
+ main section#st3 div.card-body p.card-text{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: hsl(207, 13%, 34%);
+        font-weight: lighter;
+        padding-bottom: 35px;
+        line-height: 28px;}
+main section#st3 div.row{border: none;
+margin-top: 5%;
+margin-bottom: 5%;
+background-color: transparent;}
+main section#st3 div.card{border: none;
+    background-color: transparent;}
+
+    footer{
+        background-color: hsl(237, 17%, 21%);
+        border-radius: 0px 95px 0px 0px;
+        min-height: 350px;
+        display: flex;}
+    footer h4{
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 33px;
+        text-align: center;}
+    footer ul li{
+        list-style: none;
+        align-self: center;
+        padding-top: 12px;}
+    footer ul li.l1 a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 12px 0px 65px 0px;}
+    footer ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;}
+        footer div.title{margin-top: 5%;}
+        footer div.sp1{margin-top: 5%;
+            display: flex;
+        justify-content: center;}

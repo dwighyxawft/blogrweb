@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="boot.css">
+    <script src="jquery-3.5.1.min.js"></script>
+<script src="popper2.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <title>My First boot project</title>
+   
+</head>
+<body>
+<header>
+    <div class="container" id="bg">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <h4 class="navbar-brand">Blogr</h4>
+                <button data-bs-target="#col2" data-bs-toggle="offcanvas" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+               <div class="collapse navbar-collapse">
+                   <ul class="navbar-nav">
+                       <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="link1" aria-expanded="false">Product</a>
+                    <ul class="dropdown-menu" aria-labelledby="link1">
+                        <li><a href="#" class="dropdown-item">Overview</a></li>
+                        <li><a href="#" class="dropdown-item">Pricing</a></li>
+                        <li><a href="#" class="dropdown-item">Marketplace</a></li>
+                        <li><a href="#" class="dropdown-item">Features</a></li>
+                        <li><a href="#" class="dropdown-item">Integration</a></li>
+                    </ul></li>
+                    <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="link1" aria-expanded="false">Contact</a>
+                        <ul class="dropdown-menu" aria-labelledby="link1">
+                            <li><a href="#" class="dropdown-item">About</a></li>
+                            <li><a href="#" class="dropdown-item">Team</a></li>
+                            <li><a href="#" class="dropdown-item">Blog</a></li>
+                            <li><a href="#" class="dropdown-item">Career</a></li>
+                        </ul></li>
+                        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="link1" aria-expanded="false">Connect</a>
+                            <ul class="dropdown-menu" aria-labelledby="link1">
+                                <li><a href="#" class="dropdown-item">Contact</a></li>
+                                <li><a href="#" class="dropdown-item">Newsletter</a></li>
+                                <li><a href="#" class="dropdown-item">LinkedIn</a></li>
+                            </ul></li>
+                            <li class="nav-item spec"><button class="btn spec12" data-bs-target="#modal1" data-bs-toggle="modal">Login</button>
+                                <div class="modal fade" id="modal1">
+                                    <div class="modal-dialog">
+                                        <form action="" class="needs-validation">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Login to Blogr</h4>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                            <div class="form-group">
+                                                                <label for="email">Email:</label>
+                                                                <input type="email" id="email" class="form-control" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="pwd1">Password</label>
+                                                                <input type="password" id="pwd1" class="form-control" required>
+                                                            </div>
+                                                            <div class="form-check custom-control custom-checkbox">
+                                                                <label class="form-check-label"><input type="checkbox" class="form-check-input custom-control-input">Remember Me</label>
+                                                            </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="submit" class="btn btn-info">Submit</button>
+                                                    <button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item"><button class="btn spec2" data-bs-target="#modal2" data-bs-toggle="modal">Signup</button>
+                            <div class="modal fade" id="modal2" >
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <form action="" class="needs-validation">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">Signup to Blogr</h4>
+                                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                        <div class="form-group">
+                                                            <label for="name2">Name:</label>
+                                                            <input type="text" id="name2" class="form-control" placeholder="Full Name" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="user">Username:</label>
+                                                           <div class="input-group">
+                                                            <div class="input-group-prepend"><span class="input-group-text">@</span></div>
+                                                            <input type="text" id="user" class="form-control" required>
+                                                           </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="mail">Email:</label><br>
+                                                            <div class="input-group">
+                                                                <input type="email" id="mail" class="form-control" required>
+                                                            <div class="input-group-append"><span class="input-group-text">@gmail.com</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="tel">Tel:</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend"><span class="input-group-text dropdown"><a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" id="drop1">+234</a>
+                                                                    <ul class="dropdown-menu">
+                                                                        <li><a href="#" class="dropdown-item">+447</a></li>
+                                                                        <li><a href="#" class="dropdown-item">+1</a></li>
+                                                                        <li><a href="#" class="dropdown-item">+09</a></li>
+                                                                    </ul></span></div>
+                                                                    <input type="tel" id="tel" class="form-control" required>
+                                                            </div>
+                                                        </div>
+                                                    <div class="form-group">
+                                                        <label for="pwd2">Password:</label>
+                                                        <input type="password" id="pwd2" class="form-control" required>
+                                                    </div>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-sm-12 col-md-6 form-check">
+                                                                <label class="form-check-label"><input type="checkbox" class="form-check-input">Remember Me</label>
+                                                            </div>
+                                                            <div class="col-sm-12 col-md-6 form-check">
+                                                                <label class="form-check-label"><input type="checkbox" class="form-check-input" required>Agree To Terms and Conditions</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="submit" class="btn btn-success">Submit</button>
+                                                    <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div></li>
+                   </ul>
+               </div>
+               <div class="offcanvas navbar-offcanvas offcanvas-end bg-dark" id="col2">
+                   <div class="offcanvas-header">
+                       <h4 class="offcanvas-title text-light">Blogr</h4>
+                       <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+                   </div>
+                   <div class="offcanvas-body justify-content-center">
+                    <ul class="navbar-nav ps-18">
+                        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="link1" aria-expanded="false">Product</a>
+                     <ul class="dropdown-menu" aria-labelledby="link1">
+                         <li><a href="#" class="dropdown-item">Link 1</a></li>
+                         <li><a href="#" class="dropdown-item">Link 2</a></li>
+                         <hr class="dropdown-divide">
+                         <li><a href="#" class="dropdown-item">Link 3</a></li>
+                     </ul></li>
+                     <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="link1" aria-expanded="false">Contact</a>
+                         <ul class="dropdown-menu" aria-labelledby="link1">
+                             <li><a href="#" class="dropdown-item">Link 1</a></li>
+                             <li><a href="#" class="dropdown-item">Link 2</a></li>
+                             <hr class="dropdown-divide">
+                             <li><a href="#" class="dropdown-item">Link 3</a></li>
+                         </ul></li>
+                         <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="link1" aria-expanded="false">Connect</a>
+                             <ul class="dropdown-menu" aria-labelledby="link1">
+                                 <li><a href="#" class="dropdown-item">Contact</a></li>
+                                 <li><a href="#" class="dropdown-item">Newsletter</a></li>
+                                 <hr class="dropdown-divide">
+                                 <li><a href="#" class="dropdown-item">LinkedIn</a></li>
+                             </ul></li>
+                             <li class="nav-item spec"><button class="btn spec12" data-bs-target="#modal3" data-bs-toggle="modal">Login</button>
+                                <div class="modal fade" id="modal3">
+                                    <div class="modal-dialog">
+                                        <form action="" class="needs-validation">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Login to Blogr</h4>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                            <div class="form-group">
+                                                                <label for="email">Email:</label>
+                                                                <input type="email" id="email" class="form-control" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="pwd1">Password</label>
+                                                                <input type="password" id="pwd1" class="form-control" required>
+                                                            </div>
+                                                            <div class="form-check custom-control custom-checkbox">
+                                                                <label class="form-check-label"><input type="checkbox" class="form-check-input custom-control-input">Remember Me</label>
+                                                            </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="submit" class="btn btn-info">Submit</button>
+                                                    <button class="btn btn-primary" type="button" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item"><button class="btn spec2" data-bs-target="#modal4" data-bs-toggle="modal">Signup</button>
+                                <div class="modal fade" id="modal4" >
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <form action="" class="needs-validation">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">Signup to Blogr</h4>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                            <div class="form-group">
+                                                                <label for="name2">Name:</label>
+                                                                <input type="text" id="name2" class="form-control" placeholder="Full Name" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="user">Username:</label>
+                                                               <div class="input-group">
+                                                                <div class="input-group-prepend"><span class="input-group-text">@</span></div>
+                                                                <input type="text" id="user" class="form-control" required>
+                                                               </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="mail">Email:</label><br>
+                                                                <div class="input-group">
+                                                                    <input type="email" id="mail" class="form-control" required>
+                                                                <div class="input-group-append"><span class="input-group-text">@gmail.com</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="tel">Tel:</label>
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend"><span class="input-group-text dropdown"><a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" id="drop1">+234</a>
+                                                                        <ul class="dropdown-menu">
+                                                                            <li><a href="#" class="dropdown-item">+447</a></li>
+                                                                            <li><a href="#" class="dropdown-item">+1</a></li>
+                                                                            <li><a href="#" class="dropdown-item">+09</a></li>
+                                                                        </ul></span></div>
+                                                                        <input type="tel" id="tel" class="form-control" required>
+                                                                </div>
+                                                            </div>
+                                                        <div class="form-group">
+                                                            <label for="pwd2">Password:</label>
+                                                            <input type="password" id="pwd2" class="form-control" required>
+                                                        </div>
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-sm-12 col-md-6 form-check">
+                                                                    <label class="form-check-label"><input type="checkbox" class="form-check-input">Remember Me</label>
+                                                                </div>
+                                                                <div class="col-sm-12 col-md-6 form-check">
+                                                                    <label class="form-check-label"><input type="checkbox" class="form-check-input" required>Agree To Terms and Conditions</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="submit" class="btn btn-success">Submit</button>
+                                                        <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                                    </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div></li>
+                    </ul>
+                   </div>
+               </div>
+            </nav>
+            <div class="container mx-auto" id="mx-auto">
+                <div class="row"><h4>A Modern Publishing Platform</h4></div>
+                <div class="row"><p>Grow your audience and build your online brand</p></div>
+                <div class="btn-group d-flex justify-content-center container">
+                        <div class="row-md-6">
+                            <a href="#" class="btn" role="button">Start For Free</a>
+                        <a href="#" class="btn" role="button">Learn More</a>
+                        </div>
+                </div>
+            </div>
+    </div>
+</header>
+<main>
+    <section id="st1" class="container-fluid">
+        <div class="container-fluid">
+            <h2>Designed for the Future</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 sp2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Introducing an Inextensible Editor</h4>
+                            <p class="card-text">Blogr features an exceedingly intuitive interface which lets you focus
+                                on one thing: creating content. The editor supports management of multiple blogs
+                                and allows easy manipulation of embeds such as images, videos and Markdown. 
+                                Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Robust Content Management</h4>
+                            <p class="card-text">Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format or flow. With this functionality, you are in full control.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 sp2">
+                    <img src="blogr/images/illustration-editor-desktop.svg" alt="An Image of Blogr" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="st2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12" id="bgsub">
+                    <img src="blogr/images/illustration-phones.svg" alt="The image in blogr" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">State of the Art Infrastructure</h4>
+                            <p class="card-text">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where the readers are, keeping your site competitive</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="st3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <img src="blogr/images/illustration-laptop-desktop.svg" alt="The image of blogr" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Free, open, simple</h4>
+                            <p class="card-text">Blogr is a free open source application backed by a large community of helpful developers.
+                                It supports features such as code syntax highlighting, RSS feeds, social media integration,
+                                 third party commenting tools, and works seamlessly with Google Analytics. The Architecture is clean and is relatively easy to learn.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Powerful Tooling</h4>
+                        <p class="card-text">Batteries Included. We build a simple and straightforward CLI tools that makes customization and deployment a breeze, but capable of producing the most complicated sites.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="row"><div class="col-md-3 col-sm-12 title"><h4>Blogr</h4></div>
+    <div class="col-md-3 col-sm-12 sp1">
+        <ul>
+            <li class="l1"><a href="#">Product</a></li>
+            &nbsp;
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Integration</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3 col-sm-12 sp1">
+        <ul>
+            <li class="l1"><a href="#">Company</a></li>
+            &nbsp;
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Career</a></li>
+        </ul>
+    </div>
+    <div class="col-md-3 col-sm-12 sp1">
+        <ul>
+            <li class="l1"><a href="#">Connect</a></li>
+            &nbsp;
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </div>
+</div>
+    </div>
+</footer>
+
+    <script src="boot.js"></script>
+</body>
+</html>
